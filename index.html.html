@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carol | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Carol</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm Carol</h2>
+      <img src="profile.jpg" alt="My Photo" class="profile-pic">
+
+      <p>3rd-Year BSIT Student at Cagayan State University</p>
+      <p class="about-text">
+        I’m passionate about building responsive websites, experimenting with VB.NET applications,
+        and creating projects that highlight local culture and tourism.  
+        Outside of tech, I enjoy music and exploring new places.
+      </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills content">
+    <h3>Skills</h3>
+    <ul class="skills-list">
+      <li>HTML & CSS</li>
+      <li>VB.NET</li>
+      <li>Git & GitHub</li>
+      <li>Vercel Deployment</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects content">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Tourism Website</h3>
+        <p>Multi-page responsive site showcasing Claveria attractions.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Portfolio Deployment</h3>
+        <p>Personal portfolio deployed via GitHub + Vercel.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact content">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:vegacarolanne78.com">vegacarolanne78.com</a></p>
+    <p>GitHub: <a href="https://github.com/carol-hash-oss" target="_blank">github.com/carol-hash-oss</a></p>
+    <p>Location: Claveria, Cagayan, Philippines</p>
+
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Carol | CSU Portfolio</p>
+  </footer>
+</body>
+</html>
